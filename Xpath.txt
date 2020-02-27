@@ -1,0 +1,40 @@
+weather : 1)  //div[@class='container']/following::div[@class='row']/child::button[1]/following::div[1]/ul/li[3]/a
+          2)  //div[@class='container']/descendant::li[3]/a
+          3) //div[@class='container']/following::div[@class='container']/child::div[@class='row']/child::div[1]/following-sibling::div[1]/ul/li[3]/a
+          4) //main[@class='wrapper']/preceding::div[1]/preceding::ul/li[3]/a
+          5) //parent::div[1]/following::div[@role='navigation']/div[@class='container']/div[@class='row']/child::button[1]/following-sibling::div[1]/ul/li[3]/a
+
+
+weather-your city
+
+         1) //main[@class='wrapper']/descendant::input
+         2) //main[@class='wrapper']/child::div[@class='container']/div[@id='widget']/div/div[@class='widget']/child::div[1]/following::div[1]/child::div[1]/child::form            [@id='searchform']/child::div[1]/input
+         3) //div[@class='container']/parent::footer[1]/preceding::div[1]/parent::div[1]/ancestor::div[@class='container']/parent::div[1]/parent::div[1]/preceding::div[3]/preceding::script[2]/preceding::div[1]/parent::td/preceding::tr/ancestor::span/preceding::div[2]/form[@id='searchform']/div/input
+
+
+Guide--OpenWeatherMap API guide--Current weather for any geolocation
+
+
+	1) //main[@class='wrapper']/div[@class='topic']/following::div[@class='row']/following-sibling::div[@class='row']/child::div[2]/following::div[4]/ul/li/a
+        2) //div[@class='row']/following-sibling::div[2]/div[1]/div[@class='row']/div[1]/ul/li/a
+
+Sign In
+       1) //div[@class='row']/div[1]/a[3]
+       
+
+bLOG 
+       1)  //parent::div[@class='container']/following::div[1]/div[@role='navigation']/div[@class='container']/div[@class='row']/div[1]/following-sibling::div[1]/ul/li[12]
+       2)  //div[1]/descendant::button[1]/following::div[@class='container']/div[@class='row']/child::button/following::div[1]/ul/li[12]/a
+       3) //main[@class='wrapper']/preceding::div[1]/preceding::ul/li[12]/a
+       4) //div[@id='topcontrol']/preceding::script[4]/preceding::footer[1]/preceding-sibling::div[1]/preceding::main[@class='wrapper']//preceding::div[1]/preceding::ul/li        [12]/a
+
+
+Widget-->your API key
+	1) //dd/input[@id='api-key']
+	2) //main[@class='wrapper']/descendant::dd/input[@id='api-key']
+	3) //div[@id='scripts']/preceding::div[1]/ancestor::form/div/div/dl/child::dd/input
+
+
+Widget--Search City
+	1) //button[@id='search-city']
+	2) //div[@id='popup']/following-sibling::div[@class='widget']/form/div/div/child::button[@id='search-city']
